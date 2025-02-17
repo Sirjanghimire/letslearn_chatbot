@@ -1,1 +1,1 @@
-web: python chatbot.py
+web: gunicorn lets_learn_chatbot.chatbot:app
